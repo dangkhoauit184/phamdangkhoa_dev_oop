@@ -4,11 +4,6 @@ using namespace std;
 
 int Student::StudentCount = 0;
 
-Student::Student() {
-	name = "";
-	id = 0;
-}
-
 Student::Student(string StudentName, int StudentId) {
 	name = StudentName;
 	id = StudentId;
