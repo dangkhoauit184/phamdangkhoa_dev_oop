@@ -1,4 +1,4 @@
-#include "ThoiGian.h"
+#include "Time.h"
 #include <iostream>
 #include <iomanip>
 using namespace std;
