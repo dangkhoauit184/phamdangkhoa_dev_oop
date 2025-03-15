@@ -8,6 +8,6 @@ private:
 public:
     NhanVienSanXuat();
     ~NhanVienSanXuat();
-    NhanVienSanXuat(const string& _hoTen, const string& _ngaySinh, int _soSP);
+    NhanVienSanXuat(string& _hoTen, string& _ngaySinh, int _soSP);
     void tinhTienLuong();
 };
